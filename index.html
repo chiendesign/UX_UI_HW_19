@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework 17 Solved</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="img/luchiendesigns-logo-1-1.png">
+      <ul>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Work</li>
+        <li>Contact</li>
+      </ul>
+    </header>
+<!-- My UX Skills section coded using CSS flex -->
+    <section class="heroImg">
+      <div class="content">
+        <img src="img/image-1.png">
+        <h1 align="center" >Hello! My name is Charlene Chen</h1>
+        <p>I'm a junior UXUI designer with a background in business marketing. 
+          I love solving problems from a business perspective & finding balance between function & aesthetic.</p>
+        <button>Download Resume</button>
+      </div>
+    </section>
+    <section class="mySkills">
+      <h1>UX Skills</h1>
+       <div class="flexContainer">
+          <div>
+            <img src="img/User_Research.png">
+            <h3>User Research</h3>
+            <p>Empathize with users and think from multiple different perspectives; business to consumer</p>
+          </div>
+          <div>
+            <img src="img/Design Thinking.png">
+            <h3>Design Thinking</h3>
+            <p>Channel my curious nature into my work, finding creative solutions to frustrating problems </p>
+          </div>
+          <div>
+            <img src="img/Interface Design.png">
+            <h3>Interface Design</h3>
+            <p>Understanding what makes a good design and how to effectively utilize every part of an interface </p>
+          </div>
+      </div>
+    </section>
+<!-- My Work Section Constructed using CSS Grid -->
+    <section class="myWork">
+      <style>
+      .item1 {
+        grid-area: 'myArea';
+      }
+      
+      .workGrid {
+        display: grid;
+        grid-template-areas: 'auto auto auto auto';
+        grid-gap: 10px;
+        padding: 10px;
+      }
+      
+      .workGrid > div {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+      </style>
+      <h1>Projects</h1>
+      <div class="workGrid">
+        <div class="item1">
+          <img src="img/mockup-1-1.png">
+          <h3>Federal Trade Commission</h3>
+          <p>I conducted user tests and heuristic evaluations to figure out how to redesign the Federal Trade Commission website into something more interesting and easy to use. 
+            In addition to redesigning layout and flow, I also did a small rebranding. </p>
+          <button>View Project</button>
+        </div>
+        <div class="item2">
+          <img src="img/wedo-mobile-mockup-1-1.png">
+          <h3>Wedo</h3>
+          <p>In this group project, we wanted to help households organize and allocate chores. We user tests and pinpointed pain points and struggles people have when living with other people.
+            My role in this project was to conduct the competitor analysis and design and code the website landing page.</p>
+            <button>View Project</button>
+        </div>
+      </div>
+      <button>View all projects</button>
+    </section>
+    <footer>
+      <ul align="right">
+        <li>About</li>
+        <li>Skills</li>
+        <li>Work</li>
+        <li>Contact</li>
+      </ul>
+    </footer>
+  </body>
+</html>

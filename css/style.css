@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  background-color: #fffaf0;
+  letter-spacing: 0.75px;
+}
+body {
+  margin: 0;
+}
+header {
+  background-color: #fffaf0;
+  padding: 15px;
+  font-size: 14px;
+  font-family: sans-serif, "Inter";
+}
+header img {
+  width: 70px;
+  border-radius: 25%;
+  border: solid 2px #b5c99a;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+header ul {
+  float: right;
+  color: #718355;
+}
+header li {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10%;
+  line-height: 25px;
+  border-radius: 4px;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+.header li:hover {
+  background-color: #718355;
+  color: #fffaf0;
+}
+header p {
+  display: inline-block;
+}
+.content {
+  max-width: 100%;
+  padding-top: 50px;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  font-family: sans-serif, "Inter";
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heroImg button {
+  color: #fffaf0;
+  background-color: #718355;
+  padding: 15px 20px;
+  border: none;
+}
+.heroImg button:hover {
+  background-color: #b5c99a;
+  color: #fffaf0;
+}
+.content h1 {
+  font-size: 20px;
+  font-family: "Syne-Bold";
+  color: #718355;
+  line-height: 50px;
+  margin-top: 20px;
+}
+.content p {
+  text-align: center;
+  font-size: 14px;
+  color: #718355;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+}
+.flexContainer div {
+  width: 33%;
+  margin: auto;
+  padding: 10px;
+}
+.flexContainer img {
+  width: 20%;
+  height: auto;
+  margin-left: 40%;
+}
+.flexContainer h1 {
+  font-size: 48px;
+  font-family: "Syne-Bold";
+  color: #718355;
+}
+.flexContainer h3 {
+  font-size: 20px;
+  font-family: "Syne-Bold";
+  color: #718355;
+  text-align: center;
+}
+.flexContainer p {
+  font-size: 14px;
+  font-family: sans-serif, "Inter";
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+.mySkills h1 {
+  font-size: 48px;
+  font-family: "Syne-Bold";
+  color: #718355;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.myWork h1 {
+  font-size: 48px;
+  font-family: "Syne-Bold";
+  color: #718355;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.myWork button {
+  padding: 15px 20px;
+  width: 50%;
+  background-color: #b5c99a;
+  color: #fffaf0;
+  font-size: 10px;
+  font-family: sans-serif, "Inter";
+  border-radius: 4px;
+  border: none;
+  margin: 100px 26%;
+}
+.myWork button:hover {
+  background-color: #718355;
+  color: #fffaf0;
+}
+.workGrid {
+  display: inline-grid;
+}
+.workGrid button {
+  padding: 15px 20px;
+  width: max-content;
+  background-color: #718355;
+  color: #fffaf0;
+  font-size: 10px;
+  font-family: sans-serif, "Inter";
+  border-radius: 4px;
+  border: none;
+  margin: 0 47%;
+
+}
+.workGrid button:hover {
+  background-color: #b5c99a;
+  color: #fffaf0;
+}
+.workGrid img {
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+
+}
+.workGrid h3 {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Syne-Bold";
+  color:#718355;
+}
+.workGrid p {
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif, "Inter";
+  color:black;
+  width: 50%;
+  margin-left: 26%;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.item2 {
+  margin-top: 15%;
+}
+.footer {
+  background-color: #b5c99a;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+  width: 100%;
+  height: 100px;
+}
+footer li {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #718355;
+  margin-top: 25px;
+  margin-right: 50px;
+  font-size: 14px;
+  font-family: sans-serif, "Inter";
+  border-radius: 10%;
+  line-height: 25px;
+  border-radius: 4px;
+}
+footer li:hover {
+  background-color: #718355;
+  color: #fffaf0;
+}
+@media only screen and (max-width: 600){
+  .flex-container {
+      flex-direction: column;
+}
+  #categoryGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: inherit;
+  }
+}
