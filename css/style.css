@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   background-color: #fffaf0;
   letter-spacing: 0.75px;
 }
@@ -7,21 +6,23 @@ body {
   margin: 0;
 }
 header {
-  background-color: #fffaf0;
+  background-color: #b5c99a;
   padding: 15px;
   font-size: 14px;
   font-family: sans-serif, "Inter";
+  height: 150px;
 }
 header img {
-  width: 70px;
-  border-radius: 25%;
-  border: solid 2px #b5c99a;
+  width: 200px;
   margin-left: 50px;
-  margin-top: 25px;
+  margin-top: 0px;
+  background-color: transparent;
 }
 header ul {
   float: right;
-  color: #718355;
+  margin-top: 2%;
+  color: black;
+  background-color: transparent;
 }
 header li {
   display: inline-block;
@@ -31,8 +32,9 @@ header li {
   border-radius: 4px;
   margin-right: 50px;
   margin-top: 25px;
+  background-color: transparent;
 }
-.header li:hover {
+header li:hover {
   background-color: #718355;
   color: #fffaf0;
 }
@@ -126,7 +128,7 @@ button {
   font-family: "Syne-Bold";
   color: #718355;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 15%;
   margin-bottom: 100px;
 }
 .myWork button {
@@ -164,7 +166,7 @@ button {
   color: #fffaf0;
 }
 .workGrid img {
-  width: auto;
+  width: 400px;
   height: auto;
   margin-top: 50px;
 
@@ -191,19 +193,20 @@ button {
 .footer {
   background-color: #b5c99a;
   padding: 5px;
-  color: white;
 }
 footer ul {
   list-style: none;
   padding-left: 5px;
   width: 100%;
-  height: 100px;
+  height: 200px;
+  background-color: #b5c99a;
 }
 footer li {
   display: inline-block;
   padding: 10px 15px;
-  color: #718355;
-  margin-top: 25px;
+  color: black;
+  background-color: transparent;
+  margin-top: 4%;
   margin-right: 50px;
   font-size: 14px;
   font-family: sans-serif, "Inter";
